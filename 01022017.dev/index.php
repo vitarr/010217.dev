@@ -24,33 +24,19 @@
                     <div class="well well-sm">
                         <form class="form-horizontal" action="autorisation.php" method="post">
                             <fieldset>
-                                <legend class="text-center">Contact us</legend>
-
-                                <!-- Name input-->
+                                <legend class="text-center">Sign in:</legend>
                                 <div class="form-group">
-                                    <label class="col-md-3 control-label" for="name">Name</label>
+                                    <label class="col-md-3 control-label" for="name">Login:</label>
                                     <div class="col-md-9">
-                                        <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
+                                        <input id="name" name="login" type="text" placeholder="Your login" class="form-control">
                                     </div>
                                 </div>
-
-                                <!-- Email input-->
                                 <div class="form-group">
-                                    <label class="col-md-3 control-label" for="email">Your E-mail</label>
+                                    <label class="col-md-3 control-label" for="pass">Password:</label>
                                     <div class="col-md-9">
-                                        <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
+                                        <input id="pass" name="pass" type="password" placeholder="Your password" class="form-control">
                                     </div>
                                 </div>
-
-                                <!-- Message body -->
-                                <div class="form-group">
-                                    <label class="col-md-3 control-label" for="message">Your message</label>
-                                    <div class="col-md-9">
-                                        <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
-                                    </div>
-                                </div>
-
-                                <!-- Form actions -->
                                 <div class="form-group">
                                     <div class="col-md-12 text-right">
                                         <button type="submit" class="btn btn-primary btn-lg">Submit</button>
